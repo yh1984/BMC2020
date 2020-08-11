@@ -1,6 +1,6 @@
 ##########################################################
 ####  Model for schattering pattern of Pseudanabaena #####
-####  Based on Sugi‚ç(Nat. Comm., 2019)              #####
+####  Based on Sugi et al, (Nat. Comm., 2019)        #####
 ##########################################################
 # 2020.2.25 Hisamoto 
 
@@ -133,8 +133,8 @@ for(t in 2:tmax){
 #########################################################
 
  for(t in 1:tmax){
-   png(paste("Commet_",t,".png",sep=""), width = 1000, height = 1000)               # •`‰æƒfƒoƒCƒX‚ğŠJ‚­
-   plot(Log[[t]][,1],Log[[t]][,2],xlim=c(-50,50),ylim=c(-50,50),pch=16,cex=0.4)      # ƒOƒ‰ƒt‚ğ•`‚­
+   png(paste("Commet_",t,".png",sep=""), width = 1000, height = 1000)               # æç”»ãƒ‡ãƒã‚¤ã‚¹ã‚’é–‹ã
+   plot(Log[[t]][,1],Log[[t]][,2],xlim=c(-50,50),ylim=c(-50,50),pch=16,cex=0.4)      # ã‚°ãƒ©ãƒ•ã‚’æã
    dev.off()
  }
 
