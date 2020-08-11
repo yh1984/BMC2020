@@ -1,1 +1,1 @@
-# BMC2020
+# Yamamoto et al. 2020
