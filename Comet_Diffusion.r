@@ -133,8 +133,8 @@ for(t in 2:tmax){
 #########################################################
 
  for(t in 1:tmax){
-   png(paste("Commet_",t,".png",sep=""), width = 1000, height = 1000)               # 描画デバイスを開く
-   plot(Log[[t]][,1],Log[[t]][,2],xlim=c(-50,50),ylim=c(-50,50),pch=16,cex=0.4)      # グラフを描く
+   png(paste("Commet_",t,".png",sep=""), width = 1000, height = 1000)
+   plot(Log[[t]][,1],Log[[t]][,2],xlim=c(-50,50),ylim=c(-50,50),pch=16,cex=0.4)
    dev.off()
  }
 
